@@ -2,7 +2,7 @@ let studentProfile = {
   name: "John",
   age: 20,
   scores: {
-    thai: 40,
+    thai: 401,
   },
 };
 
