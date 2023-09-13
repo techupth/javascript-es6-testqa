@@ -1,8 +1,9 @@
+//ex-1
 let studentProfile = {
   name: "John",
   age: 20,
   scores: {
-    thai: 4013,
+    thai: 40,
   },
 };
 
@@ -12,5 +13,5 @@ let additionalProperties = {
 };
 
 // Start coding here
-
+let newStudentProfile = { ...studentProfile, ...additionalProperties };
 console.log(newStudentProfile);
